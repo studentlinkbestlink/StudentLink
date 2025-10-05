@@ -62,7 +62,9 @@ class ProductionConfig {
   
   // Production Environment Detection
   static bool get isProduction {
-    return const String.fromEnvironment('ENVIRONMENT', defaultValue: 'development') == 'production';
+    // Force production mode for deployment
+    return true; // Always use production settings
+    // return const String.fromEnvironment('ENVIRONMENT', defaultValue: 'development') == 'production';
   }
   
   // Production Configuration Getters
