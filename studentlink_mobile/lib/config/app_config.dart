@@ -2,7 +2,7 @@ class AppConfig {
   // API Configuration - PRODUCTION
   static const String apiBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'https://bcpstudentlink.online/api', // Production URL
+    defaultValue: 'https://backendstudentlink.onrender.com/api', // Production URL
   );
 
   // OpenAI removed - using Hugging Face via backend API
