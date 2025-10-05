@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760317150683",
+    "project_id": "studentlinkbcp0",
+    "storage_bucket": "studentlinkbcp0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760317150683:android:bb2a282c5b068de6ded3fe",
+        "android_client_info": {
+          "package_name": "com.bestlink.studentlink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD67rYi1UhLY2oEYvkF9g0zGAAwFpTkxB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
